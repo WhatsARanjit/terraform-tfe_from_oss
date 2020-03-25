@@ -13,3 +13,12 @@
 
 # Backup files
 *.bak
+
+# Ruby
+.bundle
+.sass-cache
+Gemfile.local
+Gemfile.lock
+checksums.json
+pkg/
+vendor/

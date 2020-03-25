@@ -1,0 +1,25 @@
+variable "string" {
+  default = "foo"
+}
+
+variable "number" {
+  default = 80
+}
+
+variable "boolean" {
+  default = true
+}
+
+variable "array" {
+  default = [
+    "foo",
+    "bar"
+  ]
+}
+
+variable "hash" {
+  default = {
+    "one" = 1
+    "two" = 2
+  }
+}

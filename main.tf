@@ -8,7 +8,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "web" {
-  count         = var.size
+  count         = 11
   ami           = var.ami_id
   instance_type = "t2.micro"
 
